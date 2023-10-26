@@ -6,8 +6,9 @@
     @include('partials.jumbo')
 </div>
 
-<section>
+<section id="comics">
 
+    @include('partials.comics')
 
 </section>
 

@@ -56,7 +56,6 @@ header {
 }
 
 #jumbo {
-    background-color: $dc_darker;
 
     .jumbo_img {
         height: 400px;
@@ -74,10 +73,26 @@ header {
 
 }
 
+.card {
+
+    background-color: transparent;
+
+    img {
+        height: 185px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    h6 {
+        font-size: 0.9rem;
+    }
+}
+
 
 
 main {
     min-height: 100vh;
+    background-color: $dc_darker;
 
 }
 
