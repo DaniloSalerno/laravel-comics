@@ -23,10 +23,10 @@ header {
 
             }
 
-            &.active_li {
+            &.active {
                 border-bottom: 3px solid $dc_primary;
 
-                a.active {
+                a {
                     color: $dc_primary;
 
                 }
