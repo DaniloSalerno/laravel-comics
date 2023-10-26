@@ -9,7 +9,7 @@
 
     <div class="header_wrapper container d-flex justify-content-between align-items-center w-75">
 
-        <a href="##">
+        <a href="{{route('home')}}">
 
             <img width="75" src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
 
